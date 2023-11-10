@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class OpenLink : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public void OpenChannel() {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Application.OpenURL("https://github.com/Tommy-Vercetty/football-challenge4");
     }
 }
